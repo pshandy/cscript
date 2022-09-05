@@ -6,7 +6,8 @@ function fact(num) {
 	else
 		return (num * fact(num - 1));
 }
-var n = 2;
-var x = 3;
+var n = parseInt(WScript.Arguments(0));
+var x = parseInt(WScript.Arguments(1));
 var An = (Math.pow(-1, n) * (2 * n * n + 1) / fact(2 * n)) * Math.pow(x, 2 * n);
+WScript.Echo ('n = ', n, '; x = ', x);
 WScript.Echo(An);
