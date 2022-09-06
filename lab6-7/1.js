@@ -6,12 +6,12 @@
 > Предусмотреть возможность передачи результатов выполнения процедуры в файл.
 
 6 Перемещение каталогов:
-6.1 Создать исходный каталог;
-6.2 С помощью Блокнота создать исходный файл;
-6.3 Переместить исходный каталог в результирующий каталог;
-6.4 Переименовать файл в результирующем каталоге;
-6.5 Запустить Блокнот для редактирования файла в результирующем каталоге;
-6.6 Вывести оглавление результирующего каталога;
+	6.1 Создать исходный каталог;
+	6.2 С помощью Блокнота создать исходный файл;
+	6.3 Переместить исходный каталог в результирующий каталог;
+	6.4 Переименовать файл в результирующем каталоге;
+	6.5 Запустить Блокнот для редактирования файла в результирующем каталоге;
+	6.6 Вывести оглавление результирующего каталога;
 
 */
 
@@ -24,7 +24,7 @@ var Shell = WScript.CreateObject("WScript.Shell");
 var fso = WScript.CreateObject("Scripting.FileSystemObject");
 
 // {source_cathalog} {source_file} {result_cathalog} {result_file} {file_output}
-// cscript 1.js C:\Users\User\Documents\cscript\lab6\tmp before.txt C:\Users\User\Documents\cscript\lab6\after after.txt output.txt
+// cscript 1.js C:\Users\User\Documents\cscript\lab6-7\tmp before.txt C:\Users\User\Documents\cscript\lab6-7\after after.txt output.txt
 
 // 6.1 Создать исходный каталог;
 fso.CreateFolder(source_cathalog);

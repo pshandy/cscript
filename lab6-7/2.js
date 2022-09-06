@@ -58,7 +58,6 @@ if (WScript.Arguments.count() == 3) {
 	outfile.WriteLine(text);
 	outfile.WriteLine("Слов: " + arr.length);
 	outfile.WriteLine(arr);
-	WScript.Echo(arr);
 } else {
 	WScript.Echo(text);
 	WScript.Echo("Слов: " + arr.length);
