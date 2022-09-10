@@ -1,0 +1,28 @@
+# ls -R
+.:
+script.sh
+task.sh
+text.txt
+# mkdir before
+# touch ./before/bef.txt
+# ls -R
+.:
+before
+script.sh
+task.sh
+text.txt
+
+./before:
+bef.txt
+# mv before after
+# mv after/bef.txt after/aft.txt
+# ls -R
+.:
+after
+script.sh
+task.sh
+text.txt
+
+./after:
+aft.txt
+# rm -rf after

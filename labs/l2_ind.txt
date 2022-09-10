@@ -1,0 +1,4 @@
+# gcc -o program -Wall -Wextra -Werror ind.c -lm
+# ./program 3 2
+Result: 30.375000
+# rm program

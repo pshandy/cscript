@@ -1,0 +1,93 @@
+# date
+Сб 10 сен 2022 14:56:33 MSK
+# who
+pshandy  tty1         2022-09-10 13:28
+pshandy  tty5         2022-09-10 13:39
+# WHO
+# who am i
+pshandy  tty5         2022-09-10 13:39
+# ls -la
+итого 20
+drwxr-xr-x 2 root root 4096 сен 10 14:56 .
+drwxr-xr-x 5 root root 4096 сен 10 14:56 ..
+-rw-r--r-- 1 root root  391 сен 10 14:54 script.sh
+-rw-r--r-- 1 root root  664 сен 10 14:53 task.sh
+-rwxrwxrwx 1 root root   14 сен 10 13:53 text.txt
+# chmod 777 text.txt
+# pwd
+/home/pshandy/labs/lab1
+# cd ..
+# pwd
+/home/pshandy/labs
+# cd lab1
+# pwd
+/home/pshandy/labs/lab1
+# mkdir folder
+# ls
+folder
+script.sh
+task.sh
+text.txt
+# rmdir folder
+# ls
+script.sh
+task.sh
+text.txt
+# ls > dir.lst
+# cat dir.lst
+dir.lst
+script.sh
+task.sh
+text.txt
+# who
+# sort
+pshandy  tty1         2022-09-10 13:28
+pshandy  tty5         2022-09-10 13:39
+# who
+# wc
+      2       8      78
+# ls
+# wc
+      4       4      35
+#  > newfile
+# cat newfile
+# cat dir.lst dir.lst > newfile
+# cat newfile
+dir.lst
+script.sh
+task.sh
+text.txt
+dir.lst
+script.sh
+task.sh
+text.txt
+# mv newfile file
+# ls
+dir.lst
+file
+script.sh
+task.sh
+text.txt
+# cp file cfile
+# ls
+cfile
+dir.lst
+file
+script.sh
+task.sh
+text.txt
+# tr i M < dir.lst
+dMr.lst
+scrMpt.sh
+task.sh
+text.txt
+# cat /proc/meminfo
+# grep MemTotal
+MemTotal:        2030776 kB
+# rm cfile
+# rm file
+# rm dir.lst
+# ls
+script.sh
+task.sh
+text.txt
